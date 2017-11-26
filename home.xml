@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter"
+        android:iconTint="#ffffff"
+        android:title="@string/action_filter"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/ic_notification"
+        android:iconTint="#ffffff"
+        android:title="@string/action_notification"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_calender"
+        android:icon="@drawable/ic_date"
+        android:iconTint="#ffffff"
+        android:title="@string/action_date_filter"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_party_filter"
+        android:icon="@drawable/ic_party_filter"
+        android:iconTint="#ffffff"
+        android:title="@string/action_party_filter"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_bar"
+        android:icon="@drawable/ic_search"
+        android:iconTint="#ffffff"
+        android:title="@string/action_search"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:iconTint="#ffffff"
+        android:title="@string/action_share"
+        android:visible="false"
+        app:showAsAction="always" />
+
+</menu>
